@@ -11,6 +11,9 @@
 <header class="app-header">
 <h1>NYC Food Truck Finder</h1>
 <p>Find the nearest food truck by cuisine</p>
+<div style="margin-top:8px">
+ <a href="owner.html" class="link-btn">Add your truck</a>
+ </div>
 </header>
 <main class="app-main">
 <section class="controls">
@@ -19,7 +22,10 @@
 <span id="locationStatus" class="status"></span>
  </div>
 <label class="input-label" for="searchInput">Cuisine</label>
-<input id="searchInput" class="text-input" type="text" placeholder="e.g. Tacos, Halal, Coffee">
+<div style="display:flex; gap:8px; align-items:center">
+<input id="searchInput" class="text-input" type="text" placeholder="e.g. Tacos, Halal, Coffee" style="flex:1">
+<button id="clearBtn" class="secondary">Clear</button>
+</div>
 <div class="tag-row" id="tagRow">
 <button class="tag">Halal</button>
 <button class="tag">Tacos</button>

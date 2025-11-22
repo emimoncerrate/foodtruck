@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add Your Food Truck</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="app-header">
+<h1>Add Your Food Truck</h1>
+<p>Publish your truck so hungry users can find you</p>
+<div style="margin-top:8px"><a href="index.html" class="secondary btn">Back to Finder</a></div>
+</header>
+<main class="app-main">
+<section class="controls">
+<div class="location-row">
+<button id="ownerLocate" class="primary">Use current location</button>
+<span id="ownerLocationStatus" class="status"></span>
+</div>
+<div class="form-grid">
+ <label class="input-label" for="ownerName">Business name</label>
+ <input id="ownerName" class="text-input" type="text" placeholder="e.g. Korilla BBQ" required>
+
+ <label class="input-label" for="ownerCuisines">Cuisines (comma separated)</label>
+ <input id="ownerCuisines" class="text-input" type="text" placeholder="e.g. Korean, BBQ, Tacos">
+
+ <label class="input-label" for="ownerPrice">Price range</label>
+ <select id="ownerPrice" class="text-input">
+  <option value="">Select</option>
+  <option>$</option>
+  <option>$$</option>
+  <option>$$$</option>
+ </select>
+
+ <label class="input-label" for="ownerMenu">Menu items (one per line)</label>
+ <textarea id="ownerMenu" class="text-input" rows="6" placeholder="e.g. Chicken over rice\nFalafel\nGyro"></textarea>
+
+ <label class="input-label">Location (lat, lng)</label>
+ <div style="display:flex; gap:8px">
+  <input id="ownerLat" class="text-input" placeholder="Latitude" inputmode="decimal">
+  <input id="ownerLng" class="text-input" placeholder="Longitude" inputmode="decimal">
+ </div>
+
+ <label class="input-label">Schedule</label>
+ <div class="checkbox-row" id="ownerDays" style="display:flex; flex-wrap:wrap; gap:8px">
+  <label><input type="checkbox" value="Mon"> Mon</label>
+  <label><input type="checkbox" value="Tue"> Tue</label>
+  <label><input type="checkbox" value="Wed"> Wed</label>
+  <label><input type="checkbox" value="Thu"> Thu</label>
+  <label><input type="checkbox" value="Fri"> Fri</label>
+  <label><input type="checkbox" value="Sat"> Sat</label>
+  <label><input type="checkbox" value="Sun"> Sun</label>
+ </div>
+ <div style="display:flex; gap:8px">
+  <input id="ownerStart" class="text-input" type="time" value="11:00">
+  <input id="ownerEnd" class="text-input" type="time" value="15:00">
+ </div>
+
+ <label class="input-label" for="ownerImage">Image URL (optional)</label>
+ <input id="ownerImage" class="text-input" type="url" placeholder="https://...">
+ </div>
+ <div class="btn-group">
+  <button id="ownerPreview" class="btn ghost-btn">Preview</button>
+  <button id="ownerCopy" class="btn ghost-btn">Copy JSON</button>
+  <button id="ownerDownload" class="btn">Download JSON</button>
+ </div>
+ </section>
+ <section>
+  <div id="ownerMap" class="map" style="height:320px"></div>
+ </section>
+ <section>
+  <pre id="ownerOutput" style="white-space:pre-wrap; background:#f7f7f7; padding:12px; border-radius:12px"></pre>
+ </section>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="assets/owner.js" defer></script>
+</body>
+</html>

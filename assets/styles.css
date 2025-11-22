@@ -12,23 +12,34 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Robo
 .text-input { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 16px; }
 .primary { padding: 10px 12px; background: #0b5; color: #fff; border: none; border-radius: 8px; font-size: 14px; }
 .primary:disabled { opacity: 0.6; }
+.secondary { padding: 8px 10px; background: #eee; color: #111; border: none; border-radius: 8px; font-size: 14px; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { border: 1px solid #ddd; background: #f7f7f7; border-radius: 999px; padding: 6px 10px; font-size: 13px; }
 .results { display: grid; gap: 8px; }
 .results-header { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: #444; }
 .results-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .result-item { border: 1px solid #eee; border-radius: 12px; padding: 12px; display: grid; gap: 6px; }
+.result-item.active { outline: 2px solid #0b5; }
+.empty { padding: 24px; color: #666; text-align: center; border: 1px dashed #ddd; border-radius: 12px; }
 .result-top { display: flex; justify-content: space-between; align-items: baseline; }
 .result-name { font-weight: 600; }
 .result-cuisines { font-size: 13px; color: #555; }
 .result-meta { font-size: 13px; color: #333; display: flex; gap: 8px; flex-wrap: wrap; }
 .pill { background: #f0f0f0; padding: 2px 8px; border-radius: 999px; }
+.pill.status-fresh { background: #e6f7ee; color: #0b5; }
+.pill.status-ok { background: #eef6ff; color: #1769aa; }
+.pill.status-stale { background: #fff4e5; color: #b45; }
 .map-section { height: 360px; border-top: 1px solid #eee; }
 .map { width: 100%; height: 100%; background: #fafafa; }
 .overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: grid; place-items: center; }
 .overlay.hidden { display: none; }
 .overlay-card { background: #fff; width: min(560px, 90vw); border-radius: 12px; padding: 16px; position: relative; }
+.link-btn { display: inline-block; padding: 10px 12px; background: #0b5; color: #fff; border-radius: 8px; text-decoration: none; }
 .icon-btn { position: absolute; top: 8px; right: 8px; border: none; background: #eee; width: 28px; height: 28px; border-radius: 999px; font-size: 18px; line-height: 28px; }
+.small-map { height: 240px; border-radius: 12px; margin-top: 8px; }
+.btn-group { display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 10px 12px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer; }
+.ghost-btn { background: #eee; color: #111; }
 @media (min-width: 840px) {
  .app-main { grid-template-columns: 1fr 1fr; }
  .map-section { grid-column: span 2; height: 520px; }
