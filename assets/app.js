@@ -144,6 +144,7 @@ setupDetailMap(t)
 overlayClose.addEventListener('click',()=>{overlay.classList.add('hidden'); if(detailMap){detailMap.remove(); detailMap=null}})
 locateBtn.addEventListener('click',getLocation)
 tagRow.addEventListener('click',e=>{if(e.target.classList.contains('tag')){searchInput.value=e.target.textContent;render()}})
+tagRow.addEventListener('click',e=>{if(e.target.classList.contains('tag')){Array.from(tagRow.querySelectorAll('.tag')).forEach(b=>b.classList.remove('active')); e.target.classList.add('active')}})
 searchInput.addEventListener('input',render)
 fetchData()
 
@@ -198,7 +199,7 @@ function directionsUrl(lat,lng){
 }
 
 const clearBtn=document.getElementById('clearBtn')
-clearBtn.addEventListener('click',()=>{searchInput.value='';render()})
+clearBtn.addEventListener('click',()=>{searchInput.value='';Array.from(tagRow.querySelectorAll('.tag')).forEach(b=>b.classList.remove('active'));render()})
 
 function setupDetailMap(t){
  const container=document.getElementById('overlayMap')
