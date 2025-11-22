@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NYC Food Truck Finder</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="app-header">
+<h1>NYC Food Truck Finder</h1>
+<p>Find the nearest food truck by cuisine</p>
+</header>
+<main class="app-main">
+<section class="controls">
+<div class="location-row">
+<button id="locateBtn" class="primary">Use my location</button>
+<span id="locationStatus" class="status"></span>
+ </div>
+<label class="input-label" for="searchInput">Cuisine</label>
+<input id="searchInput" class="text-input" type="text" placeholder="e.g. Tacos, Halal, Coffee">
+<div class="tag-row" id="tagRow">
+<button class="tag">Halal</button>
+<button class="tag">Tacos</button>
+<button class="tag">Coffee</button>
+<button class="tag">Mediterranean</button>
+<button class="tag">BBQ</button>
+<button class="tag">Dessert</button>
+ </div>
+ </section>
+<section class="results">
+<div class="results-header">
+<div id="resultsCount"></div>
+<div id="sortStatus"></div>
+ </div>
+<ul id="resultsList" class="results-list"></ul>
+ </section>
+<section class="map-section">
+<div id="map" class="map"></div>
+ </section>
+</main>
+<div id="detailOverlay" class="overlay hidden">
+<div class="overlay-card">
+<button id="overlayClose" class="icon-btn">×</button>
+<div id="overlayContent"></div>
+ </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

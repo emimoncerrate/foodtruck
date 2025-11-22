@@ -1,0 +1,182 @@
+[
+ {
+  "id": "t1",
+  "name": "Halal Guys Midtown",
+  "cuisines": ["Halal", "Mediterranean"],
+  "menu": ["Chicken over Rice", "Gyro", "Falafel"],
+  "location": { "lat": 40.7616, "lng": -73.9797 },
+  "last_updated": "2025-11-22T12:10:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t2",
+  "name": "Korilla BBQ",
+  "cuisines": ["Korean", "BBQ", "Tacos"],
+  "menu": ["Kimchi Tacos", "Bibimbap Bowl", "Pork BBQ"],
+  "location": { "lat": 40.7308, "lng": -73.9973 },
+  "last_updated": "2025-11-22T12:25:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t3",
+  "name": "Wafels & Dinges",
+  "cuisines": ["Dessert", "Belgian"],
+  "menu": ["Liege Wafel", "Nutella Wafel", "Strawberries & Cream"],
+  "location": { "lat": 40.7411, "lng": -73.9897 },
+  "last_updated": "2025-11-22T11:55:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t4",
+  "name": "Makina Cafe",
+  "cuisines": ["Ethiopian", "Mediterranean", "Halal"],
+  "menu": ["Spicy Chicken Bowl", "Lentil Stew", "Pita Wrap"],
+  "location": { "lat": 40.7528, "lng": -73.9772 },
+  "last_updated": "2025-11-22T12:40:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t5",
+  "name": "The Cinnamon Snail",
+  "cuisines": ["Vegan", "Dessert", "Sandwiches"],
+  "menu": ["Maple Bacon Donut", "Seitan Sandwich", "Chili"],
+  "location": { "lat": 40.7427, "lng": -73.9952 },
+  "last_updated": "2025-11-22T12:05:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t6",
+  "name": "Tacos El Bronco",
+  "cuisines": ["Tacos", "Mexican"],
+  "menu": ["Al Pastor", "Carnitas", "Asada"],
+  "location": { "lat": 40.6500, "lng": -74.0027 },
+  "last_updated": "2025-11-22T12:50:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t7",
+  "name": "Luke's Lobster Roll Truck",
+  "cuisines": ["Seafood", "Sandwiches"],
+  "menu": ["Lobster Roll", "Shrimp Roll", "Clam Chowder"],
+  "location": { "lat": 40.7075, "lng": -74.0113 },
+  "last_updated": "2025-11-22T12:35:00Z",
+  "price": "$$$"
+ },
+ {
+  "id": "t8",
+  "name": "Nuchas Empanadas",
+  "cuisines": ["Latin", "Empanadas"],
+  "menu": ["Beef Empanada", "Spinach & Feta", "Chicken Chipotle"],
+  "location": { "lat": 40.7590, "lng": -73.9845 },
+  "last_updated": "2025-11-22T12:00:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t9",
+  "name": "Calexico",
+  "cuisines": ["Mexican", "Burritos", "Tacos"],
+  "menu": ["Chicken Burrito", "Quesadilla", "Fish Tacos"],
+  "location": { "lat": 40.7223, "lng": -73.9970 },
+  "last_updated": "2025-11-22T12:30:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t10",
+  "name": "Big D's Grub",
+  "cuisines": ["Asian", "Tacos", "Sandwiches"],
+  "menu": ["Beef Bulgogi Tacos", "Pork Sandwich", "Fries"],
+  "location": { "lat": 40.7489, "lng": -73.9680 },
+  "last_updated": "2025-11-22T11:45:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t11",
+  "name": "Curry in a Hurry",
+  "cuisines": ["Indian", "Vegetarian"],
+  "menu": ["Chana Masala", "Chicken Tikka", "Samosa"],
+  "location": { "lat": 40.7321, "lng": -73.9816 },
+  "last_updated": "2025-11-22T12:20:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t12",
+  "name": "Gorilla Cheese NYC",
+  "cuisines": ["Sandwiches", "American"],
+  "menu": ["Classic Grilled Cheese", "Tomato Soup", "Bacon Melt"],
+  "location": { "lat": 40.7301, "lng": -73.9916 },
+  "last_updated": "2025-11-22T12:42:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t13",
+  "name": "Momosan Ramen Truck",
+  "cuisines": ["Japanese", "Ramen"],
+  "menu": ["Tonkotsu Ramen", "Chicken Paitan", "Gyoza"],
+  "location": { "lat": 40.7540, "lng": -73.9865 },
+  "last_updated": "2025-11-22T12:18:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t14",
+  "name": "Van Leeuwen Ice Cream",
+  "cuisines": ["Dessert", "Ice Cream"],
+  "menu": ["Vanilla Bean", "Honeycomb", "Chocolate"],
+  "location": { "lat": 40.7183, "lng": -73.9577 },
+  "last_updated": "2025-11-22T12:33:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t15",
+  "name": "Birria-Landia",
+  "cuisines": ["Mexican", "Tacos"],
+  "menu": ["Birria Tacos", "Consomé", "Quesabirria"],
+  "location": { "lat": 40.7419, "lng": -73.9560 },
+  "last_updated": "2025-11-22T12:12:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t16",
+  "name": "Sweetgreen Bowl Truck",
+  "cuisines": ["Salads", "Healthy"],
+  "menu": ["Harvest Bowl", "Kale Caesar", "Warm Chicken Bowl"],
+  "location": { "lat": 40.7079, "lng": -74.0064 },
+  "last_updated": "2025-11-22T12:06:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t17",
+  "name": "Dim Sum Go Go Truck",
+  "cuisines": ["Chinese", "Dim Sum"],
+  "menu": ["Shrimp Dumplings", "Pork Buns", "Turnip Cake"],
+  "location": { "lat": 40.7157, "lng": -73.9980 },
+  "last_updated": "2025-11-22T12:46:00Z",
+  "price": "$$"
+ },
+ {
+  "id": "t18",
+  "name": "The Greek Truck",
+  "cuisines": ["Greek", "Mediterranean"],
+  "menu": ["Gyro", "Souvlaki", "Greek Salad"],
+  "location": { "lat": 40.7482, "lng": -73.9853 },
+  "last_updated": "2025-11-22T12:22:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t19",
+  "name": "The Arepa Lady",
+  "cuisines": ["Colombian", "Arepas"],
+  "menu": ["Arepa de Queso", "Arepa de Choclo", "Chorizo"],
+  "location": { "lat": 40.7498, "lng": -73.8620 },
+  "last_updated": "2025-11-22T12:01:00Z",
+  "price": "$"
+ },
+ {
+  "id": "t20",
+  "name": "Bluestone Lane Coffee Cart",
+  "cuisines": ["Coffee", "Bakery"],
+  "menu": ["Flat White", "Cold Brew", "Banana Bread"],
+  "location": { "lat": 40.7056, "lng": -74.0139 },
+  "last_updated": "2025-11-22T12:14:00Z",
+  "price": "$$"
+ }
+]
